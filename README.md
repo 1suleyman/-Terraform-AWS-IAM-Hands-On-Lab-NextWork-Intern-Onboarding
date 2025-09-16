@@ -93,7 +93,7 @@ resource "aws_instance" "nextwork_dev" {
 
 ## 🛡️ Step 4: IAM Policy
 
-I store the JSON policy in [`iam-policy.json`]([./iam-policy.json](https://github.com/1suleyman/-Terraform-AWS-IAM-Hands-On-Lab-NextWork-Intern-Onboarding/blob/main/terraform-nextwork-intern-lab/iam-policy-dev.json)) and create it via Terraform.
+I store the JSON policy in [`iam-policy.json`](https://github.com/1suleyman/-Terraform-AWS-IAM-Hands-On-Lab-NextWork-Intern-Onboarding/blob/main/terraform-nextwork-intern-lab/iam-policy-dev.json) and create it via Terraform.
 
 This policy allows interns to **manage EC2 instances tagged `Env=development`**, but prevents them from touching production.
 
