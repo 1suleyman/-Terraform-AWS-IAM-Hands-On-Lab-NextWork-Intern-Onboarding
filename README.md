@@ -47,7 +47,7 @@ This downloads the AWS provider and prepares the backend.
 
 ## 🖥️ Step 2: Configure AWS Provider
 
-In [`main.tf`](./main.tf), I specify:
+In [`main.tf`](https://github.com/1suleyman/-Terraform-AWS-IAM-Hands-On-Lab-NextWork-Intern-Onboarding/blob/main/terraform-nextwork-intern-lab/main.tf), I specify:
 
 ```hcl
 provider "aws" {
@@ -93,7 +93,7 @@ resource "aws_instance" "nextwork_dev" {
 
 ## 🛡️ Step 4: IAM Policy
 
-I store the JSON policy in [`iam-policy.json`](./iam-policy.json) and create it via Terraform.
+I store the JSON policy in [`iam-policy.json`]([./iam-policy.json](https://github.com/1suleyman/-Terraform-AWS-IAM-Hands-On-Lab-NextWork-Intern-Onboarding/blob/main/terraform-nextwork-intern-lab/iam-policy-dev.json)) and create it via Terraform.
 
 This policy allows interns to **manage EC2 instances tagged `Env=development`**, but prevents them from touching production.
 
@@ -130,7 +130,7 @@ Terraform creates an account alias (`nextwork-interns`) so intern login is easy:
 
 ## 🧪 Step 7: Outputs
 
-Terraform outputs, in [`outputs.tf`](./outputs.tf), make testing easy:
+Terraform outputs, in [`outputs.tf`](https://github.com/1suleyman/-Terraform-AWS-IAM-Hands-On-Lab-NextWork-Intern-Onboarding/blob/main/terraform-nextwork-intern-lab/outputs.tf), make testing easy:
 
 * EC2 instance IPs.
 * Intern login URL.
