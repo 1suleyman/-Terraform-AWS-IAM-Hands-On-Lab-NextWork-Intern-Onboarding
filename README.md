@@ -4,6 +4,8 @@ In this project, **I’ll use Terraform to onboard a new intern into my AWS envi
 
 This project is a Terraform-powered version of my hands-on AWS IAM lab, fully codified for repeatable deployments.
 
+<img width="1742" height="1346" alt="image" src="https://github.com/user-attachments/assets/e9ac1f12-ea34-4b14-9e2e-d8e686bf880d" />
+
 ---
 
 ## 🛠️ Project Goals
