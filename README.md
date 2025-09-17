@@ -2,7 +2,7 @@
 
 In this project, **I’ll use Terraform to onboard a new intern into my AWS environment** while managing access securely. By the end, the intern will have access to **development EC2 instances**, but **not production instances**, all via **Terraform-managed IAM users, groups, policies, and EC2 resources**.
 
-This project is a Terraform-powered version of my hands-on AWS IAM lab, fully codified for repeatable deployments.
+This project is a Terraform-powered version of my hands-on [AWS IAM lab](https://github.com/1suleyman/-AWS-IAM-Hands-On-Lab-NextWork-Intern-Onboarding), fully codified for repeatable deployments.
 
 <img width="1742" height="1346" alt="image" src="https://github.com/user-attachments/assets/e9ac1f12-ea34-4b14-9e2e-d8e686bf880d" />
 
